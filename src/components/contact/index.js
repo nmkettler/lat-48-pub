@@ -27,6 +27,7 @@ class Contact extends Component {
             <div className='email-wrapper'>
               <a href="mailto:someone@yoursite.com?subject=Latitude 48 Question">
                 <p className='text-center contact-footer-txt'>Send us an email</p>
+                {/* <FontAwesomeIcon icon={faEnvelope} size="6x" /> */}
               </a>
             </div>
             <p className='text-center email-envel'>
