@@ -1,0 +1,65 @@
+
+/*** Home module ****/
+
+.contact-us-wrapper {
+  /* background-color: #f0f2f3; */
+    background: url(../../images/sunrise.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+.contact-us-wrapper hr {
+  display: block; height: 1px;
+  border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0;
+}
+
+.contact-welcome-title {
+  font-size: 6em;
+  color: #fff;
+}
+
+.main-comp-title {
+  color: #fff;
+}
+.contact-description {
+  font-size: 20px;
+  padding-top: 5%;
+  color: #fff;
+  font-weight: 100;
+}
+
+.contact-footer {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+
+.email-wrapper a {
+  text-decoration: none;
+}
+
+.email-wrapper .contact-footer-txt {
+  padding: 10px;
+  border: 2px solid #fff;
+  transition: 0.5s all;
+}
+
+.email-wrapper .contact-footer-txt:hover {
+  background: #070f13;
+  color: #fff;
+}
+
+.contact-footer-txt {
+  /* font-size: 20px; */
+  color: #fff;
+}
+.email-envel a{
+  color: #3b5999
+}
+.email-envel a:hover {
+  color: #aa2626;
+}

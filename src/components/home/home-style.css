@@ -1,0 +1,29 @@
+
+/*** Home module ****/
+
+.home-mod-1-wrapper {
+  /* background-color: #f0f2f3; */
+    background: url(../../images/urbanseattle.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.inner-home-page-div {
+  position: absolute;
+  z-index: 15;
+  top: 50%;
+  left: 40%;
+  margin: -100px 0 0 -150px;
+}
+
+.main-welcome-title {
+  font-size: 6em;
+  color: #fff;
+}
+
+.main-comp-title {
+  color: #fff;
+}

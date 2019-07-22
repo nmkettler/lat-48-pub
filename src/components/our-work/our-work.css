@@ -1,0 +1,38 @@
+
+/*** Home module ****/
+
+.our-work-wrapper {
+  /* background-color: #f0f2f3; */
+    /* background: url(../../images/arc.jpg) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.our-work-welcome-title {
+  font-size: 6em;
+  color: #070f13;
+}
+
+.main-comp-title {
+  color: #fff;
+}
+
+.work-tile {
+  background: #dcdcdc;
+  margin-top: 25px;
+}
+
+.work-tile p {
+  color: #fff;
+}
+
+.tile-inner-text {
+    position: absolute;
+  bottom: 0px;
+  width: 93%;
+  padding: 5px 5px 0px 5px;
+  background-color: rgba(0,0,0, 0.4);
+}

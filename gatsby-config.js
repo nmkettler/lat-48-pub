@@ -1,11 +1,26 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Latitude 48`,
+    description: `This is the meta data for latitude 48`,
+    author: `Noah Kettler`,
+    menuLinks: [
+      {
+        name: 'Our Work',
+        link: '/our-work',
+      },
+      {
+        name: 'About Us',
+        link: '/about',
+      },
+      {
+        name: 'Contact',
+        link: '/contact',
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -24,11 +39,11 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/lat-favicon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // this (optional) plugin enables Progressive Web App  Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

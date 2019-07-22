@@ -1,0 +1,21 @@
+
+/*** Home module ****/
+
+.about-us-wrapper {
+  /* background-color: #f0f2f3; */
+    background: url(../../images/rainyseattle.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.main-welcome-title {
+  font-size: 6em;
+  color: #fff;
+}
+
+.main-comp-title {
+  color: #fff;
+}
