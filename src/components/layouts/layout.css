@@ -1,14 +1,25 @@
 /** Globals **/
 
 /* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
-
-body {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&display=swap');
+* {
+  overflow: scroll;
+-webkit-overflow-scrolling: touch;
+}
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
   font-family: 'Open Sans', sans-serif !important;
 }
-html, body {margin:0;padding:0;height:100%;}
 html, body, .container-fluid, .row {
     height: 100%;
+}
+
+/* Gloobal */
+
+.sec-title {
+  font-weight: 600;
 }
 
 /* Home Page */
@@ -120,9 +131,10 @@ html, body, .container-fluid, .row {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 34px 20px;
+  padding: 22px 20px;
   position: relative;
   user-select: none;
+  color: #fff;
 }
 
 .mobile-header .menu-icon .navicon {

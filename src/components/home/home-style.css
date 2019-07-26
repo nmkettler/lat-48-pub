@@ -27,3 +27,62 @@
 .main-comp-title {
   color: #fff;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 320px) {
+  .main-welcome-title {
+    font-size: 3em;
+    color: #fff;
+  }
+  .inner-home-page-div {
+    position: absolute;
+    z-index: 15;
+    top: 40%;
+    left: 60%;
+    margin: -100px 0 0 -150px;
+  }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
+  .main-welcome-title {
+    font-size: 3em;
+    color: #fff;
+  }
+  .inner-home-page-div {
+    position: absolute;
+    z-index: 15;
+    top: 40%;
+    left: 60%;
+    margin: -100px 0 0 -150px;
+  }
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) {
+  .main-welcome-title {
+    font-size: 5em;
+    color: #fff;
+  }
+  .inner-home-page-div {
+    position: absolute;
+    z-index: 15;
+    top: 30%;
+    left: 40%;
+    margin: -100px 0 0 -150px;
+  }
+}
+
+/* iPhone XS ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) {
+  .main-welcome-title {
+    font-size: 5em;
+    color: #fff;
+  }
+  .inner-home-page-div {
+    position: absolute;
+    z-index: 15;
+    top: 30%;
+    left: 40%;
+    margin: -100px 0 0 -150px;
+  }
+}

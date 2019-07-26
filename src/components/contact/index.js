@@ -12,7 +12,7 @@ class Contact extends Component {
             <div className='container'>
               <div className='row'>
                 <div className='col-md-12'>
-                  <h1 className='text-center contact-welcome-title'>Contact Latitude 48</h1>
+                  <h1 className='text-center contact-welcome-title sec-title'>Contact Latitude 48</h1>
                   <hr></hr>
                 </div>
               </div>

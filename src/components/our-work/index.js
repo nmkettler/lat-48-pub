@@ -11,7 +11,7 @@ class OurWork extends Component {
             <div className='container-fluid'>
               <div className='row'>
                 <div className='col-md-12'>
-                  <h1 className='text-center our-work-welcome-title'>Our Work</h1>
+                  <h1 className='text-center our-work-welcome-title sec-title'>Our Work</h1>
                 </div>
               </div>
               <div className='row'>

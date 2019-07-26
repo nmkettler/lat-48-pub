@@ -19,3 +19,60 @@
 .main-comp-title {
   color: #fff;
 }
+
+.about-company-txt-wrapper {
+  border: 1px solid #fff;
+  background: rgba(255,255,255, 0.7);
+}
+
+.about-company-txt-wrapper p {
+  padding: 10px;
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+  .main-welcome-title {
+    font-size: 3em;
+    color: #fff;
+    margin-top: 25%;
+  }
+  .about-company-txt-wrapper {
+    margin-top: 20px;
+  }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
+  .main-welcome-title {
+    font-size: 3em;
+    color: #fff;
+    margin-top: 25%;
+  }
+  .about-company-txt-wrapper {
+    margin-top: 20px;
+  }
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) {
+  .main-welcome-title {
+    font-size: 5em;
+    color: #fff;
+    margin-top: 25%;
+  }  
+  .about-company-txt-wrapper {
+    margin-top: 20px;
+  }
+}
+
+/* iPhone XS ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) {
+  .main-welcome-title {
+    font-size: 5em;
+    color: #fff;
+    margin-top: 25%;
+  } 
+  .about-company-txt-wrapper {
+    margin-top: 20px;
+  }
+}
