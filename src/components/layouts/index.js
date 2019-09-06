@@ -25,6 +25,15 @@ const Layout = ({ children }) => (
               name
               link
             }
+            workTile {
+              name
+              description
+              number
+            }
+            menuFooterLinks {
+              socIcon
+              link
+            }
           }
         }
       }
@@ -36,17 +45,23 @@ const Layout = ({ children }) => (
             <div className='row'>
               <MediaQuery query="(min-device-width: 1224px)">
                 <nav className='col-md-2 d-none d-md-block sidebar'>
-                  <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
+                  <Header 
+                    siteTitle={data.site.siteMetadata.title} 
+                    menuLinks={data.site.siteMetadata.menuLinks} 
+                    menuFooterLinks={data.site.siteMetadata.menuFooterLinks} />
                 </nav>
               </MediaQuery>
               <MediaQuery query="(max-width: 765px)">
-                <MobileMenu siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
+                <MobileMenu siteTitle={data.site.siteMetadata.title}
+                  menuLinks={data.site.siteMetadata.menuLinks}
+                  menuFooterLinks={data.site.siteMetadata.menuFooterLinks} />
               </MediaQuery>
-              <main className='col-md-10 ml-sm-auto col-lg-10 px-0 lat-main'>{children}</main>
+              <main className='col-md-10 ml-sm-auto col-lg-10 px-0 lat-main'
+                workTile={data.site.siteMetadata.workTile}>{children}</main>
             </div>
           </div>
           <footer>
-           This is the footer
+           Copyright © 2019 Latitude 48 - All Rights Reserved.
           </footer>
         </div>
       </>

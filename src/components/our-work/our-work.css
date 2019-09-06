@@ -32,7 +32,7 @@
 .tile-inner-text {
     position: absolute;
   bottom: 0px;
-  width: 93%;
+  width: 90%;
   padding: 5px 5px 0px 5px;
   background-color: rgba(0,0,0, 0.4);
 }
@@ -72,3 +72,22 @@
     margin-top: 25%;
   } 
 }
+
+  .Modal {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    right: 200px;
+    bottom: 200px;
+    background-color: rgba(255,255,255,0.7);
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;
+  }

@@ -14,7 +14,7 @@
 .inner-home-page-div {
   position: absolute;
   z-index: 15;
-  top: 50%;
+  top: 25%;
   left: 40%;
   margin: -100px 0 0 -150px;
 }
@@ -26,6 +26,7 @@
 
 .main-comp-title {
   color: #fff;
+  text-align: center;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 320px) {
@@ -36,9 +37,13 @@
   .inner-home-page-div {
     position: absolute;
     z-index: 15;
-    top: 40%;
+    top: 30%;
     left: 60%;
     margin: -100px 0 0 -150px;
+  }
+  .main-comp-title {
+    font-size: 1.2em;
+    text-align: center;
   }
 }
 
@@ -51,9 +56,13 @@
   .inner-home-page-div {
     position: absolute;
     z-index: 15;
-    top: 40%;
+    top: 30%;
     left: 60%;
     margin: -100px 0 0 -150px;
+  }
+  .main-comp-title {
+    font-size: 1.2em;
+    text-align: center;
   }
 }
 
@@ -66,9 +75,13 @@
   .inner-home-page-div {
     position: absolute;
     z-index: 15;
-    top: 30%;
+    top: 25%;
     left: 40%;
     margin: -100px 0 0 -150px;
+  }
+  .main-comp-title {
+    font-size: 2em;
+    text-align: left;
   }
 }
 
@@ -81,8 +94,12 @@
   .inner-home-page-div {
     position: absolute;
     z-index: 15;
-    top: 30%;
+    top: 25%;
     left: 40%;
     margin: -100px 0 0 -150px;
+  }
+  .main-comp-title {
+    font-size: 2em;
+    text-align: left;
   }
 }

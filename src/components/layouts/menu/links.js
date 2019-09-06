@@ -45,7 +45,7 @@ class Links extends Component {
           id={links.link}
           key={links.link}>
           <AniLink
-            className={linkHovering && activeState === links.link ? 'over' : ''}
+            className={linkHovering && activeState === links.link ? 'over  upper-nav' : 'upper-nav'}
             fade
             to={links.link}>
             {links.name}

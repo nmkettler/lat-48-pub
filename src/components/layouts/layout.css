@@ -65,17 +65,30 @@ html, body, .container-fluid, .row {
   transition: all 0.3s ease-out;
 }
 
-.lat-sidebar-wrapper li a {
+.lat-sidebar-wrapper .upper-nav {
   color: #8e9599;
   line-height: 60px;
   letter-spacing: 2px;
   font-size: 20px;
 }
-.lat-sidebar-wrapper li a:hover {
+.lat-sidebar-wrapper .upper-nav:hover {
   color: #fff;
   text-decoration: none;
 }
-
+#nav-footer {
+  color: #fff;
+  left: 0;
+  z-index: 50;
+  display: inherit;
+  margin: 100% auto;
+}
+#nav-footer li {
+  margin-left: 30px;
+  text-align: center
+}
+.soc-media-icon a {
+  color: #fff;
+}
 
 /********** Mobile Menu *******/
 
@@ -204,6 +217,10 @@ html, body, .container-fluid, .row {
   top: 50%;
   left: 16%;
   margin: -100px 0 0 -150px;
+}
+
+footer {
+  display: none;
 }
 
 

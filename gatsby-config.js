@@ -3,6 +3,7 @@ module.exports = {
     title: `Latitude 48`,
     description: `This is the meta data for latitude 48`,
     author: `Noah Kettler`,
+    taco: `Latitude 48`,
     menuLinks: [
       {
         name: 'Our Work',
@@ -14,6 +15,48 @@ module.exports = {
       },
       {
         name: 'Contact',
+        link: '/contact',
+      },
+    ],
+    workTile: [
+      {
+        name: 'Work Tile 1',
+        number: 0,
+        description: 'This is work tile 1 desc',
+      },
+      {
+        name: 'Work Tile 2',
+        number: 1,
+        description: 'This is work tile 2 desc',
+      },
+      {
+        name: 'Work Tile 3',
+        number: 2,
+        description: 'This is work tile 3 desc',
+      },
+      {
+        name: 'Work Tile 4',
+        number: 3,
+        description: 'This is work tile 4 desc',
+      },
+      {
+        name: 'Work Tile 5',
+        number: 4,
+        description: 'This is work tile 5 desc',
+      },
+      {
+        name: 'Work Tile 6',
+        number: 5,
+        description: 'This is work tile 6 desc',
+      },
+    ],
+    menuFooterLinks: [
+      {
+        socIcon: 'faFacebook',
+        link: '/contact',
+      },
+      {
+        socIcon: 'faTwitter',
         link: '/contact',
       },
     ],
