@@ -8,12 +8,6 @@ const ReactModal = require('react-modal');
 export default (props) => {
   const { store, dispatch } = useContext(Context);
 
-  // function closeModal () {
-  //   dispatch({
-  //     type: 'close',
-  //   });
-  // }
-  console.log(props)
   return (
     <React.Fragment>
       <ReactModal
@@ -24,8 +18,8 @@ export default (props) => {
         <div className='container'>
           <div className='row'>
             <div className='col-md-12'>
-              <p className='text-right' onClick={() => dispatch({ type: 'CLOSE', statusHasBeenChanged: false, tileNumber: store.tileNumber })}><FontAwesomeIcon icon={faTimes} /></p>
-              <h1>Work Tile 1</h1>
+              <p className='text-right close-modal' onClick={() => dispatch({ type: 'CLOSE', statusHasBeenChanged: false, tileNumber: store.tileNumber })}><FontAwesomeIcon icon={faTimes} /></p>
+              <h1>{props.workTile[store.tileNumber].name}</h1>
               {props.workTile[store.tileNumber].description}
             </div>
           </div>

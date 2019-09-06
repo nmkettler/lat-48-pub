@@ -7,22 +7,6 @@ import { Context } from '../../store';
 const OurWork = (props) => {
   const { store, dispatch } = useContext(Context);
 
-  // function openModal (dispatch) {
-  //   return {
-  //     type: 'open',
-  //   }
-  //   dispatch({
-  //     type: 'open',
-  //   });
-  // }
-  
-  // function closeModal() {
-  //   dispatch({
-  //     type: 'close',
-  //   });
-  // }
-  console.log(props);
-
   return (
     <React.Fragment>
       <div className='our-work-wrapper'>
@@ -39,7 +23,7 @@ const OurWork = (props) => {
                 <div className='work-tile' onClick={() => dispatch({ type: 'OPEN', statusHasBeenChanged: true, tileNumber: 0 })}>
                   <img className="img-fluid" src={pic} />
                   <div className='tile-inner-text'>
-                    <p>Bacon ipsum dolor amet swine prosciutto pastrami turducken doner.</p>
+                    <p>{props.workTile[0].name}</p>
                   </div>
                 </div>
               </div>
@@ -47,7 +31,7 @@ const OurWork = (props) => {
                 <div className='work-tile' onClick={() => dispatch({ type: 'OPEN', statusHasBeenChanged: true, tileNumber: 1 })}>
                   <img className="img-fluid" src={pic} />
                   <div className='tile-inner-text'>
-                    <p>Bacon ipsum dolor amet swine prosciutto pastrami turducken doner.</p>
+                    <p>{props.workTile[1].name}</p>
                   </div>
                 </div>
               </div>
@@ -55,7 +39,7 @@ const OurWork = (props) => {
                 <div className='work-tile' onClick={() => dispatch({ type: 'OPEN', statusHasBeenChanged: true, tileNumber: 2 })}>
                   <img className="img-fluid" src={pic} />
                   <div className='tile-inner-text'>
-                    <p>Bacon ipsum dolor amet swine prosciutto pastrami turducken doner.</p>
+                    <p>{props.workTile[2].name}</p>
                   </div>
                 </div>
               </div>
@@ -65,7 +49,7 @@ const OurWork = (props) => {
                 <div className='work-tile' onClick={() => dispatch({ type: 'OPEN', statusHasBeenChanged: true, tileNumber: 3 })}>
                   <img className="img-fluid" src={pic} />
                   <div className='tile-inner-text'>
-                    <p>Bacon ipsum dolor amet swine prosciutto pastrami turducken doner.</p>
+                    <p>{props.workTile[3].name}</p>
                   </div>
                 </div>
               </div>
@@ -73,7 +57,7 @@ const OurWork = (props) => {
                 <div className='work-tile' onClick={() => dispatch({ type: 'OPEN', statusHasBeenChanged: true, tileNumber: 4 })}>
                   <img className="img-fluid" src={pic} />
                   <div className='tile-inner-text'>
-                    <p>Bacon ipsum dolor amet swine prosciutto pastrami turducken doner.</p>
+                    <p>{props.workTile[4].name}</p>
                   </div>
                 </div>
               </div>
@@ -81,7 +65,7 @@ const OurWork = (props) => {
                 <div className='work-tile' onClick={() => dispatch({ type: 'OPEN', statusHasBeenChanged: true, tileNumber: 5 })}>
                   <img className="img-fluid" src={pic} />
                   <div className='tile-inner-text'>
-                    <p>Bacon ipsum dolor amet swine prosciutto pastrami turducken doner.</p>
+                    <p>{props.workTile[5].name}</p>
                   </div>
                 </div>
               </div>

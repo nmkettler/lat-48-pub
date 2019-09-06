@@ -20,34 +20,34 @@ module.exports = {
     ],
     workTile: [
       {
-        name: 'Work Tile 1',
+        name: 'Seattle',
         number: 0,
-        description: 'This is work tile 1 desc',
+        description: 'This is work tile 1 desc filet mignon ball tip pastrami capicola porchetta burgdoggen pig. Pastrami venison pancetta spare ribs beef hamburger ham hock jerky beef ribs meatball doner swine. Cupim corned beef ribeye burgdoggen, pig cow turkey ball tip t-bone sirloin pork belly pastrami ham.',
       },
       {
-        name: 'Work Tile 2',
+        name: 'Issaquah',
         number: 1,
-        description: 'This is work tile 2 desc',
+        description: 'This is work tile 2 desc filet mignon ball tip pastrami capicola porchetta burgdoggen pig. Pastrami venison pancetta spare ribs beef hamburger ham hock jerky beef ribs meatball doner swine. Cupim corned beef ribeye burgdoggen, pig cow turkey ball tip t-bone sirloin pork belly pastrami ham.',
       },
       {
-        name: 'Work Tile 3',
+        name: 'Bellevue',
         number: 2,
-        description: 'This is work tile 3 desc',
+        description: 'This is work tile 3 desc filet mignon ball tip pastrami capicola porchetta burgdoggen pig. Pastrami venison pancetta spare ribs beef hamburger ham hock jerky beef ribs meatball doner swine. Cupim corned beef ribeye burgdoggen, pig cow turkey ball tip t-bone sirloin pork belly pastrami ham.',
       },
       {
-        name: 'Work Tile 4',
+        name: 'Portland',
         number: 3,
-        description: 'This is work tile 4 desc',
+        description: 'This is work tile 4 desc filet mignon ball tip pastrami capicola porchetta burgdoggen pig. Pastrami venison pancetta spare ribs beef hamburger ham hock jerky beef ribs meatball doner swine. Cupim corned beef ribeye burgdoggen, pig cow turkey ball tip t-bone sirloin pork belly pastrami ham.',
       },
       {
-        name: 'Work Tile 5',
+        name: 'Granite Falls',
         number: 4,
-        description: 'This is work tile 5 desc',
+        description: 'This is work tile 5 desc filet mignon ball tip pastrami capicola porchetta burgdoggen pig. Pastrami venison pancetta spare ribs beef hamburger ham hock jerky beef ribs meatball doner swine. Cupim corned beef ribeye burgdoggen, pig cow turkey ball tip t-bone sirloin pork belly pastrami ham.',
       },
       {
-        name: 'Work Tile 6',
+        name: 'Ohio',
         number: 5,
-        description: 'This is work tile 6 desc',
+        description: 'This is work tile 6 desc filet mignon ball tip pastrami capicola porchetta burgdoggen pig. Pastrami venison pancetta spare ribs beef hamburger ham hock jerky beef ribs meatball doner swine. Cupim corned beef ribeye burgdoggen, pig cow turkey ball tip t-bone sirloin pork belly pastrami ham.',
       },
     ],
     menuFooterLinks: [

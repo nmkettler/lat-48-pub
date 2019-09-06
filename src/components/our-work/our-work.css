@@ -23,6 +23,7 @@
 .work-tile {
   background: #dcdcdc;
   margin-top: 25px;
+  cursor: pointer;
 }
 
 .work-tile p {
@@ -35,6 +36,10 @@
   width: 90%;
   padding: 5px 5px 0px 5px;
   background-color: rgba(0,0,0, 0.4);
+}
+.close-modal {
+  cursor: pointer;
+  margin: 10px;
 }
 
 /* iPhone 5 ----------- */

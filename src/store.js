@@ -1,12 +1,11 @@
 import React from 'react';
 
-export const initialState = { 
+export const initialState = {
   showModal1: false,
   tileNumber: 0,
- };
+};
 
 export const reducer = (state, action) => {
-  console.log(action);
   switch (action.type) {
   case 'OPEN':
     const openState = {
