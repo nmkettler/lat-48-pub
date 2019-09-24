@@ -4,21 +4,29 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+
 * {
   overflow: scroll;
+  overflow-x: hidden;
 /* -webkit-overflow-scrolling: touch;
 overflow-y: scroll; */
 }
+
 html, body {
   margin:0;
   padding:0;
   height:100%;
   font-family: 'Open Sans', sans-serif !important;
+  /* overflow: hidden; */
+  
 }
-html, body, .container-fluid, .row {
+.container-fluid, .row {
     height: 100%;
 }
-
+::-webkit-scrollbar {
+width: 0px; /* remove scrollbar space */
+/*background: transparent; / optional: just make scrollbar invisible */
+}
 /* Gloobal */
 
 .sec-title {
