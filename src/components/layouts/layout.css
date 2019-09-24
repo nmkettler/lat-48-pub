@@ -6,10 +6,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
 
 * {
-  overflow: scroll;
-  overflow-x: hidden;
-/* -webkit-overflow-scrolling: touch;
-overflow-y: scroll; */
+  /* overflow: scroll; */
+  /* -webkit-overflow-scrolling: touch; */
+  /* overflow-x: hidden; */
+  /* overflow-y: scroll;  */
 }
 
 html, body {
@@ -17,8 +17,13 @@ html, body {
   padding:0;
   height:100%;
   font-family: 'Open Sans', sans-serif !important;
+  /* -webkit-overflow-scrolling: touch; */
   /* overflow: hidden; */
-  
+
+}
+
+main.col-md-10.ml-sm-auto.col-lg-10.px-0.lat-main {
+  overflow: scroll;
 }
 .container-fluid, .row {
     height: 100%;
