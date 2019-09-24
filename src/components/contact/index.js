@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './contact.css'
-import { faHome, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import './contact.css';
+import { faHome, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Contact extends Component {
   render () {

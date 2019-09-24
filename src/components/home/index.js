@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import './home-style.css';
 import { Link } from 'gatsby';
 
-
 class HomePage extends Component {
   render () {
-    
     return (
       <React.Fragment>
         <div className='home-mod-1-wrapper'>

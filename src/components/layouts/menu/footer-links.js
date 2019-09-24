@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 class MenuFooterLinks extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props);
 
     this.state = {
@@ -16,7 +16,7 @@ class MenuFooterLinks extends Component {
     this.hoverOff = this.hoverOff.bind(this);
   }
 
-  hoverOn(e) {
+  hoverOn (e) {
     // console.log(e)
     this.setState({
       linkHovering: true,
@@ -24,7 +24,7 @@ class MenuFooterLinks extends Component {
     });
   }
 
-  hoverOff(e) {
+  hoverOff (e) {
     console.log('hover off');
     this.setState({
       linkHovering: false,
@@ -32,7 +32,7 @@ class MenuFooterLinks extends Component {
     });
   }
 
-  render() {
+  render () {
     const { linkHovering, activeState } = this.state;
     return (
       <React.Fragment>

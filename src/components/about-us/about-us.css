@@ -1,9 +1,9 @@
 
-/*** Home module ****/
+/*** About us module ****/
 
 .about-us-wrapper {
   /* background-color: #f0f2f3; */
-    background: url(../../images/rainyseattle.jpg) no-repeat center center fixed;
+  background: url(../../images/rainyseattle.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,6 +14,7 @@
 .main-welcome-title {
   font-size: 6em;
   color: #fff;
+  margin: 4% 0;
 }
 
 .main-comp-title {
@@ -23,10 +24,22 @@
 .about-company-txt-wrapper {
   border: 1px solid #fff;
   background: rgba(255,255,255, 0.7);
+  padding: 20px;
+}
+
+.about-company-txt-wrapper ul li {
+  padding: 5px 0;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .about-company-txt-wrapper p {
-  padding: 10px;
+  font-size: 16px;
+  line-height: 2em
+}
+
+.how-we-do-it {
+  margin-left: 20px;
 }
 
 /* iPhone 5 ----------- */
@@ -34,10 +47,13 @@
   .main-welcome-title {
     font-size: 3em;
     color: #fff;
-    margin-top: 25%;
+    margin: 25% 0;
   }
   .about-company-txt-wrapper {
     margin-top: 20px;
+  }
+  .how-we-do-it {
+    margin-left: 0px;
   }
 }
 
@@ -46,10 +62,13 @@
   .main-welcome-title {
     font-size: 3em;
     color: #fff;
-    margin-top: 25%;
+    margin: 25% 0;
   }
   .about-company-txt-wrapper {
     margin-top: 20px;
+  }
+  .how-we-do-it {
+    margin-left: 0px;
   }
 }
 
@@ -58,10 +77,13 @@
   .main-welcome-title {
     font-size: 5em;
     color: #fff;
-    margin-top: 25%;
-  }  
+    margin: 25% 0;
+  }
   .about-company-txt-wrapper {
     margin-top: 20px;
+  }
+  .how-we-do-it {
+    margin-left: 0px;
   }
 }
 
@@ -70,9 +92,12 @@
   .main-welcome-title {
     font-size: 5em;
     color: #fff;
-    margin-top: 25%;
-  } 
+    margin: 25% 0;
+  }
   .about-company-txt-wrapper {
     margin-top: 20px;
+  }
+  .how-we-do-it {
+    margin-left: 0px;
   }
 }

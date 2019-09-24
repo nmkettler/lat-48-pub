@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import TransitionLink from "gatsby-plugin-transition-link"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import TransitionLink from 'gatsby-plugin-transition-link';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 
 class Links extends Component {
   constructor (props) {

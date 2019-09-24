@@ -45,9 +45,9 @@ const Layout = ({ children }) => (
             <div className='row'>
               <MediaQuery query="(min-device-width: 1224px)">
                 <nav className='col-md-2 d-none d-md-block sidebar'>
-                  <Header 
-                    siteTitle={data.site.siteMetadata.title} 
-                    menuLinks={data.site.siteMetadata.menuLinks} 
+                  <Header
+                    siteTitle={data.site.siteMetadata.title}
+                    menuLinks={data.site.siteMetadata.menuLinks}
                     menuFooterLinks={data.site.siteMetadata.menuFooterLinks} />
                 </nav>
               </MediaQuery>

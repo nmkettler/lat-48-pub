@@ -6,12 +6,12 @@ module.exports = {
     taco: `Latitude 48`,
     menuLinks: [
       {
-        name: 'Our Work',
-        link: '/our-work',
+        name: 'About',
+        link: '/about',
       },
       {
-        name: 'About Us',
-        link: '/about',
+        name: 'Services',
+        link: '/services',
       },
       {
         name: 'Contact',

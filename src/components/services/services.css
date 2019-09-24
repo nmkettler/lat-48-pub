@@ -1,0 +1,111 @@
+.section-wrapper {
+  padding: 70px 0;
+}
+.section-wrapper a {
+  text-decoration: none;
+  color: #070f13;
+}
+/* Header/ First module */
+.our-vision-header-wrapper {
+  background: url(../../images/columbia-center.jpg) no-repeat center center;
+}
+.services-header {
+  padding: 40px 0;
+}
+.services-header h1,
+.services-header p {
+  color: #fff;
+}
+.vision-title {
+  font-size: 6em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+.vision-text {
+  padding-left: 10px;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 300;
+}
+
+.services-overview-wrapper {
+  background: #fff;
+  padding: 40px 0;
+}
+/* Second Module */
+.section-wrapper .service-title {
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.driven-value-header {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.driven-value-header h1 {
+  font-size: 4em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+/* Service Components/Remaining Modules */
+.service-icon {
+  font-size: 30px;
+}
+.quality-service-wrapper {
+  background: url(../../images/blured-road.jpg) no-repeat center center;
+  color: #fff;
+}
+.service-sec-service-wrapper {
+  background: #fff;
+}
+.integrity-service-wrapper {
+  background: #cacaca;
+}
+.collaboration-service-wrapper {
+  background: #fff;
+}
+.innovation-service-wrapper {
+  background: #cacaca;
+  background: url(../../images/computer.jpg) no-repeat center center;
+  color: #fff;
+}
+.contact-service-wrapper {
+  background: #fff;
+}
+.service-description h1 {
+  padding-bottom: 30px;
+}
+.quality-service,
+.collaboration-service,
+.innovation-service,
+.integrity-service,
+.service-sec-header,
+.contact-service {
+  /* padding: 40px 0; */
+}
+
+/* Contact Module Styles */
+
+.email-wrapper {
+  width: 20%;
+  margin: 0px auto;
+}
+.email-wrapper a {
+  text-decoration: none;
+}
+
+.email-wrapper .contact-footer-txt {
+  padding: 10px;
+  border: 2px solid #070f13;
+  transition: 0.5s all;
+}
+
+.email-wrapper .contact-footer-txt:hover {
+  background: #070f13;
+  color: #fff;
+}
+
+.contact-footer-txt {
+  /* font-size: 20px; */
+  color: #070f13;
+  margin-top: 30px;
+}
