@@ -1,13 +1,12 @@
-.section-wrapper {
-  padding: 70px 0;
+.services-section-wrapper {
+  padding: 50px 0;
 }
-.section-wrapper a {
+.services-section-wrapper a {
   text-decoration: none;
-  color: #070f13;
+  color: #fff;
 }
-/* Header/ First module */
-.our-vision-header-wrapper {
-  background: url(../../images/columbia-center.jpg) no-repeat center center;
+.about-us-header-wrapper {
+  background: #585858;
 }
 .services-header {
   padding: 40px 0;
@@ -32,80 +31,21 @@
   padding: 40px 0;
 }
 /* Second Module */
-.section-wrapper .service-title {
+.services-section-wrapper .service-title {
   font-family: "Montserrat", Sans-serif;
   font-weight: 400;
   margin-top: 30px;
+}
+.services-section-wrapper p {
+  color: #070f13;
 }
 .driven-value-header {
   width: 100%;
   margin-bottom: 50px;
 }
-.driven-value-header h1 {
-  font-size: 4em;
+.driven-value-header p {
+  font-size: 2em;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
-}
-/* Service Components/Remaining Modules */
-.service-icon {
-  font-size: 30px;
-}
-.quality-service-wrapper {
-  background: url(../../images/blured-road.jpg) no-repeat center center;
-  color: #fff;
-}
-.service-sec-service-wrapper {
-  background: #fff;
-}
-.integrity-service-wrapper {
-  background: #cacaca;
-}
-.collaboration-service-wrapper {
-  background: #fff;
-}
-.innovation-service-wrapper {
-  background: #cacaca;
-  background: url(../../images/computer.jpg) no-repeat center center;
-  color: #fff;
-}
-.contact-service-wrapper {
-  background: #fff;
-}
-.service-description h1 {
-  padding-bottom: 30px;
-}
-.quality-service,
-.collaboration-service,
-.innovation-service,
-.integrity-service,
-.service-sec-header,
-.contact-service {
-  /* padding: 40px 0; */
-}
-
-/* Contact Module Styles */
-
-.email-wrapper {
-  width: 20%;
-  margin: 0px auto;
-}
-.email-wrapper a {
-  text-decoration: none;
-}
-
-.email-wrapper .contact-footer-txt {
-  padding: 10px;
-  border: 2px solid #070f13;
-  transition: 0.5s all;
-}
-
-.email-wrapper .contact-footer-txt:hover {
-  background: #070f13;
-  color: #fff;
-}
-
-.contact-footer-txt {
-  /* font-size: 20px; */
-  color: #070f13;
-  margin-top: 30px;
+  padding: 0 10px;
 }

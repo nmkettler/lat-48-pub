@@ -23,15 +23,13 @@ class Contact extends Component {
               </div>
             </div>
           </div>
-          <div className='contact-footer'>
-            <div className='email-wrapper'>
+          <div className='contact-page-footer'>
+            <div className='email-page-wrapper'>
               <a href="mailto:someone@yoursite.com?subject=Latitude 48 Question">
-                <p className='text-center contact-footer-txt'>Send us an email</p>
+                <p className='text-center contact-page-footer-txt'>Send us an email</p>
                 {/* <FontAwesomeIcon icon={faEnvelope} size="6x" /> */}
               </a>
             </div>
-            <p className='text-center email-envel'>
-            </p>
           </div>
         </div>
       </React.Fragment>

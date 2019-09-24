@@ -1,103 +1,111 @@
-
-/*** About us module ****/
-
-.about-us-wrapper {
-  /* background-color: #f0f2f3; */
-  background: url(../../images/rainyseattle.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
+.section-wrapper {
+  padding: 70px 0;
 }
-
-.main-welcome-title {
+.section-wrapper a {
+  text-decoration: none;
+  color: #070f13;
+}
+/* Header/ First module */
+.our-vision-header-wrapper {
+  background: url(../../images/columbia-center.jpg) no-repeat center center;
+}
+.services-header {
+  padding: 40px 0;
+}
+.services-header h1,
+.services-header p {
+  color: #fff;
+}
+.vision-title {
   font-size: 6em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+.vision-text {
+  padding-left: 10px;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 300;
+}
+
+.services-overview-wrapper {
+  background: #fff;
+  padding: 40px 0;
+}
+/* Second Module */
+.section-wrapper .service-title {
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.driven-value-header {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.driven-value-header h1 {
+  font-size: 4em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+/* Service Components/Remaining Modules */
+.service-icon {
+  font-size: 30px;
+}
+.quality-service-wrapper {
+  background: url(../../images/blured-road.jpg) no-repeat center center;
   color: #fff;
-  margin: 4% 0;
+}
+.service-sec-service-wrapper {
+  background: #fff;
+}
+.integrity-service-wrapper {
+  background: #cacaca;
+}
+.collaboration-service-wrapper {
+  background: #fff;
+}
+.innovation-service-wrapper {
+  background: #cacaca;
+  background: url(../../images/computer.jpg) no-repeat center center;
+  color: #fff;
+}
+.contact-service-wrapper {
+  background: #fff;
+}
+.service-description h1 {
+  padding-bottom: 30px;
+}
+.quality-service,
+.collaboration-service,
+.innovation-service,
+.integrity-service,
+.service-sec-header,
+.contact-service {
+  /* padding: 40px 0; */
 }
 
-.main-comp-title {
+/* Contact Module Styles */
+
+.email-wrapper {
+  width: 20%;
+  margin: 0px auto;
+}
+.email-wrapper a {
+  text-decoration: none;
+}
+
+.email-wrapper .contact-footer-txt {
+  padding: 10px;
+  border: 2px solid #070f13;
+  transition: 0.5s all;
+}
+
+.email-wrapper .contact-footer-txt:hover {
+  background: #070f13;
   color: #fff;
 }
 
-.about-company-txt-wrapper {
-  border: 1px solid #fff;
-  background: rgba(255,255,255, 0.7);
-  padding: 20px;
-}
-
-.about-company-txt-wrapper ul li {
-  padding: 5px 0;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.about-company-txt-wrapper p {
-  font-size: 16px;
-  line-height: 2em
-}
-
-.how-we-do-it {
-  margin-left: 20px;
-}
-
-/* iPhone 5 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
-  .main-welcome-title {
-    font-size: 3em;
-    color: #fff;
-    margin: 25% 0;
-  }
-  .about-company-txt-wrapper {
-    margin-top: 20px;
-  }
-  .how-we-do-it {
-    margin-left: 0px;
-  }
-}
-
-/* iPhone 6, 7, 8 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
-  .main-welcome-title {
-    font-size: 3em;
-    color: #fff;
-    margin: 25% 0;
-  }
-  .about-company-txt-wrapper {
-    margin-top: 20px;
-  }
-  .how-we-do-it {
-    margin-left: 0px;
-  }
-}
-
-/* iPhone X ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) {
-  .main-welcome-title {
-    font-size: 5em;
-    color: #fff;
-    margin: 25% 0;
-  }
-  .about-company-txt-wrapper {
-    margin-top: 20px;
-  }
-  .how-we-do-it {
-    margin-left: 0px;
-  }
-}
-
-/* iPhone XS ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 896px) {
-  .main-welcome-title {
-    font-size: 5em;
-    color: #fff;
-    margin: 25% 0;
-  }
-  .about-company-txt-wrapper {
-    margin-top: 20px;
-  }
-  .how-we-do-it {
-    margin-left: 0px;
-  }
+.contact-footer-txt {
+  /* font-size: 20px; */
+  color: #070f13;
+  margin-top: 30px;
 }

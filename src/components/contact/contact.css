@@ -31,29 +31,29 @@
   font-weight: 100;
 }
 
-.contact-footer {
+.contact-page-footer {
   position: absolute;
   bottom: 25%;
   left: 50%;
   margin: -100px 0 0 -150px;
 }
 
-.email-wrapper a {
+.email-page-wrapper a {
   text-decoration: none;
 }
 
-.email-wrapper .contact-footer-txt {
+.email-page-wrapper .contact-page-footer-txt {
   padding: 10px;
   border: 2px solid #fff;
   transition: 0.5s all;
 }
 
-.email-wrapper .contact-footer-txt:hover {
+.email-page-wrapper .contact-page-footer-txt:hover {
   background: #070f13;
   color: #fff;
 }
 
-.contact-footer-txt {
+.contact-page-footer-txt {
   /* font-size: 20px; */
   color: #fff;
 }
@@ -71,7 +71,7 @@
     color: #fff;
     margin-top: 25%;
   }
-  .contact-footer {
+  .contact-page-footer {
     position: absolute;
     bottom: 5%;
     left: 70%;
@@ -86,7 +86,7 @@
     color: #fff;
     margin-top: 25%;
   }
-  .contact-footer {
+  .contact-page-footer {
     position: absolute;
     bottom: 5%;
     left: 70%;
@@ -101,7 +101,7 @@
     color: #fff;
     margin-top: 25%;
   }
-  .contact-footer {
+  .contact-page-footer {
     position: absolute;
     bottom: 5%;
     left: 70%;
@@ -116,7 +116,7 @@
     color: #fff;
     margin-top: 25%;
   }
-    .contact-footer {
+    .contact-page-footer {
     position: absolute;
     bottom: 5%;
     left: 70%;
