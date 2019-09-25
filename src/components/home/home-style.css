@@ -45,6 +45,10 @@
   text-decoration: none;
 }
 
+.learn-more-wrapper a:hover {
+  text-decoration: none;
+}
+
 .learn-more-wrapper .home-page-learn-more-txt {
   padding: 10px;
   border: 2px solid #fff;

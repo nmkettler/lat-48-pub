@@ -10,7 +10,7 @@ class MobileMenu extends Component {
       <header class="header mobile-header">
         <MainImage />
         <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><FontAwesomeIcon icon={faBars} size="1px" /></label>
+        <label class="menu-icon" for="menu-btn"><FontAwesomeIcon icon={faBars} size="lg" /></label>
         {/* <FontAwesomeIcon icon={faBars} size="6x" /> <span class="navicon"></span> */}
         <ul class="menu">
           {this.props.menuLinks.map(item =>
