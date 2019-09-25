@@ -15,6 +15,15 @@ class HomePage extends Component {
                   <h1 className='main-comp-title'>Latitude 48 Engineering</h1>
                 </div>
               </div>
+              <div className='row'>
+                <div className='learn-more-home'>
+                  <div className='learn-more-wrapper'>
+                    <Link to='/about' href='/about'>
+                      <p className='text-center home-page-learn-more-txt'>Learn More</p>
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

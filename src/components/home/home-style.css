@@ -31,6 +31,36 @@
   line-height: inherit;
 }
 
+/* Learn More CTA */
+
+.learn-more-home {
+  margin: 0px auto;
+  padding-top: 80%;
+}
+.learn-more-wrapper {
+  width: 180px;
+  text-decoration: none;
+}
+.learn-more-wrapper a {
+  text-decoration: none;
+}
+
+.learn-more-wrapper .home-page-learn-more-txt {
+  padding: 10px;
+  border: 2px solid #fff;
+  transition: 0.5s all;
+}
+
+.learn-more-wrapper .home-page-learn-more-txt:hover {
+  background: #070f13;
+  color: #fff;
+}
+
+.home-page-learn-more-txt {
+  /* font-size: 20px; */
+  color: #fff;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 320px) {
   .main-welcome-title {
     font-size: 3em;

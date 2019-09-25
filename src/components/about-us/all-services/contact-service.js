@@ -10,7 +10,7 @@ class Contact extends Component {
           <p className='contact-icon'><FontAwesomeIcon icon={faEnvelope} size='3x' /></p>
           <h1>Have a question?</h1>
           <div className='email-wrapper'>
-            <a href="mailto:someone@yoursite.com?subject=Latitude 48 Question">
+            <a href="mailto:info@latitude-48.com?subject=Latitude 48 Question">
               <p className='text-center contact-footer-txt'>Send us an email</p>
             </a>
           </div>

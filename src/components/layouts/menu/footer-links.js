@@ -64,7 +64,7 @@ class MenuFooterLinks extends Component {
               className='nav-item soc-media-icon col-sm-4'
               id='envelope-icon'
               key='envelope-icon'>
-              <a href="mailto:someone@yoursite.com?subject=Latitude 48 Question">
+              <a href="mailto:info@latitude-48.com?subject=Latitude 48 Question">
                 <FontAwesomeIcon icon={faEnvelope} size='2x' />
               </a>
             </div>
