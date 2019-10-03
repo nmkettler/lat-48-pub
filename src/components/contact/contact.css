@@ -3,58 +3,54 @@
 
 .contact-us-wrapper {
   /* background-color: #f0f2f3; */
-    background: url(../../images/sunrise.jpg) no-repeat center center fixed;
+    background: url(../../images/mtn-range.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
 }
-.contact-us-wrapper hr {
-  display: block; height: 1px;
-  border: 0; border-top: 1px solid #ccc;
-    margin: 1em 0; padding: 0;
+.inner-contact-div {
+    z-index: 15;
+    padding: 18% 0;
 }
 
 .contact-welcome-title {
-  font-size: 6em;
-  color: #fff;
+  font-size: 9em;
+  color: #070f13;
 }
 
 .main-comp-title {
-  color: #fff;
+  color: #070f13;
 }
 .contact-description {
-  font-size: 20px;
-  padding-top: 5%;
-  color: #fff;
+  font-size: 1.6em;
+  color: #070f13;
   font-weight: 100;
 }
-
-.contact-page-footer {
-  position: absolute;
-  bottom: 25%;
-  left: 50%;
-  margin: -100px 0 0 -150px;
+/* Contact Buttons */
+.contact-btn-wrapper {
+  margin-top: 30px;
 }
-
+#contact-or {
+  margin: 21px 0;
+  font-size: 1.6em;
+  color: #606968;
+}
 .email-page-wrapper a {
   text-decoration: none;
 }
 
 .email-page-wrapper .contact-page-footer-txt {
-  padding: 10px;
-  border: 2px solid #fff;
+  padding: 22px;
   transition: 0.5s all;
-}
-
-.email-page-wrapper .contact-page-footer-txt:hover {
-  background: #070f13;
+  background: #d8262b;
+  font-size: 20px;
   color: #fff;
 }
 
-.contact-page-footer-txt {
-  /* font-size: 20px; */
+.email-page-wrapper .contact-page-footer-txt:hover {
+  background: #BD0101;
   color: #fff;
 }
 .email-envel a{
@@ -67,59 +63,47 @@
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
   .contact-welcome-title {
-    font-size: 3em;
-    color: #fff;
+    font-size: 4em;
+    color: #070f13;
     margin-top: 25%;
   }
-  .contact-page-footer {
-    position: absolute;
-    bottom: 5%;
-    left: 70%;
-    margin: -100px 0 0 -150px;
+  #contact-or {
+    margin: 21px auto;
   }
 }
 
 /* iPhone 6, 7, 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
   .contact-welcome-title {
-    font-size: 3em;
-    color: #fff;
+    font-size: 4em;
+    color: #070f13;
     margin-top: 25%;
   }
-  .contact-page-footer {
-    position: absolute;
-    bottom: 5%;
-    left: 70%;
-    margin: -100px 0 0 -150px;
+  #contact-or {
+    margin: 21px auto;
   }
 }
 
 /* iPhone X ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) {
   .contact-welcome-title {
-    font-size: 5em;
-    color: #fff;
+    font-size: 6em;
+    color: #070f13;
     margin-top: 25%;
   }
-  .contact-page-footer {
-    position: absolute;
-    bottom: 5%;
-    left: 70%;
-    margin: -100px 0 0 -150px;
+  #contact-or {
+    margin: 21px auto;
   }
 }
 
 /* iPhone XS ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) {
   .contact-welcome-title {
-    font-size: 5em;
-    color: #fff;
+    font-size: 6em;
+    color: #070f13;
     margin-top: 25%;
   }
-    .contact-page-footer {
-    position: absolute;
-    bottom: 5%;
-    left: 70%;
-    margin: -100px 0 0 -150px;
+  #contact-or {
+    margin: 21px auto;
   }
 }

@@ -53,10 +53,12 @@
   padding: 10px;
   border: 2px solid #fff;
   transition: 0.5s all;
+  background: #fff;
+  color: #070f13;
 }
 
 .learn-more-wrapper .home-page-learn-more-txt:hover {
-  background: #070f13;
+  background: #8e9599;
   color: #fff;
 }
 

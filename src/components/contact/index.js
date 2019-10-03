@@ -12,23 +12,33 @@ class Contact extends Component {
             <div className='container'>
               <div className='row'>
                 <div className='col-md-12'>
-                  <h1 className='text-center contact-welcome-title sec-title'>Contact Latitude 48</h1>
-                  <hr></hr>
+                  <h1 className='text-center contact-welcome-title sec-title'>Hello</h1>
                 </div>
               </div>
               <div className='row'>
                 <div className='col-md-12'>
-                  <p className='text-center contact-description'>While we're good with smoke signals, there are simpler ways for us to get in touch and answer your questions.</p>
+                  <p className='text-center contact-description'>What can we help you with?</p>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className='contact-page-footer'>
-            <div className='email-page-wrapper'>
-              <a href="mailto:info@latitude-48.com?subject=Latitude 48 Question">
-                <p className='text-center contact-page-footer-txt'>Send us an email</p>
-                {/* <FontAwesomeIcon icon={faEnvelope} size="6x" /> */}
-              </a>
+              <div className='row contact-btn-wrapper'>
+                <div className='col-md-4 offset-md-2'>
+                  <div className='email-page-wrapper'>
+                    <a href="mailto:info@latitude-48.com?subject=Latitude 48 Question">
+                      <p className='text-center contact-page-footer-txt'>Hire Us</p>
+                      {/* <FontAwesomeIcon icon={faEnvelope} size="6x" /> */}
+                    </a>
+                  </div>
+                </div>
+                <p id='contact-or'>or</p>
+                <div className='col-md-4'>
+                  <div className='email-page-wrapper'>
+                    <a href="mailto:info@latitude-48.com?subject=Latitude 48 Question">
+                      <p className='text-center contact-page-footer-txt'>Join Us</p>
+                      {/* <FontAwesomeIcon icon={faEnvelope} size="6x" /> */}
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
