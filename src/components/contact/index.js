@@ -41,6 +41,16 @@ class Contact extends Component {
               </div>
             </div>
           </div>
+          <div className='contact-address text-center'>
+            <div className='container'>
+              <div className='row'>
+                <div className='col-md-12'>
+                  <p>600 1st Avenue, Seattle, WA 98104</p>
+                  <p><a href="tel:206-556-1615">206.556.1615</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </React.Fragment>
     );

@@ -4,6 +4,7 @@
 .services-section-wrapper a {
   text-decoration: none;
   color: #fff;
+  cursor: default;
 }
 .about-us-header-wrapper {
   background: #585858;

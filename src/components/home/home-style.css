@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap');
 /*** Home module ****/
 
 .home-mod-1-wrapper {
@@ -26,6 +26,12 @@
 }
 
 .main-comp-title {
+  color: #fff;
+  text-align: center;
+  line-height: inherit;
+  font-family: 'IBM Plex Serif', serif;
+}
+.main-comp-sub-title {
   color: #fff;
   text-align: center;
   line-height: inherit;
@@ -83,6 +89,10 @@
     font-size: 1.2em;
     text-align: center;
   }
+  .main-comp-sub-title {
+    font-size: 1.0em;
+    text-align: center;
+  }
 }
 
 /* iPhone 6, 7, 8 ----------- */
@@ -102,6 +112,10 @@
     font-size: 1.2em;
     text-align: center;
   }
+    .main-comp-sub-title {
+    font-size: 1.0em;
+    text-align: center;
+  }
 }
 
 /* iPhone X ----------- */
@@ -118,7 +132,11 @@
     margin: -100px 0 0 -150px;
   }
   .main-comp-title {
-    font-size: 2em;
+    font-size: 1.9em;
+    text-align: left;
+  }
+  .main-comp-sub-title {
+    font-size: 1.5em;
     text-align: left;
   }
 }
@@ -138,6 +156,10 @@
   }
   .main-comp-title {
     font-size: 2em;
+    text-align: left;
+  }
+    .main-comp-sub-title {
+    font-size: 1.5em;
     text-align: left;
   }
 }

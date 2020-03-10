@@ -17,7 +17,7 @@ main.col-md-10.ml-sm-auto.col-lg-10.px-0.lat-main {
   overflow-x: hidden;
 }
 .container-fluid, .row {
-    height: 100%;
+    /* height: 100%; */
 }
 ::-webkit-scrollbar {
 width: 0px; /* remove scrollbar space */
@@ -192,7 +192,7 @@ width: 0px; /* remove scrollbar space */
 }
 
 .mobile-header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 260px;
 }
 
 .mobile-header .menu-btn:checked ~ .menu-icon .navicon {
@@ -214,6 +214,10 @@ width: 0px; /* remove scrollbar space */
 
 .mobile-header .lat-logo {
   width: 100px;
+}
+
+.mobile-header li:last-child {
+  margin-bottom: 10px;
 }
 
 /* Page Styles */

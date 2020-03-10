@@ -13,6 +13,7 @@ class HomePage extends Component {
                 <div className='col-md-12'>
                   <h1 className='text-center main-welcome-title sec-title'>Welcome.</h1>
                   <h1 className='main-comp-title'>Latitude 48 Engineering</h1>
+                  <h3 className='main-comp-sub-title'>Civil Engineering Consultants</h3>
                 </div>
               </div>
               <div className='row'>
