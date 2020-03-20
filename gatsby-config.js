@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Latitude 48`,
-    description: `This is the meta data for latitude 48`,
+    description: `Latitude 48 Civil Engineering Firm offering full service consulting in Seattle, Washington`,
     author: `Noah Kettler`,
     taco: `Latitude 48`,
     menuLinks: [
