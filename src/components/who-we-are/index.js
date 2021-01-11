@@ -62,7 +62,7 @@ class WhoWeAre extends Component {
                 <h1 className="display-3">Brady Berriman</h1>
                 <p className="lead ">Principal / Owner</p>
                 <p>
-                  <a type="email" className="employee-learn ">brady@latitude-48.com</a>
+                  <a type="email" href="mailto: brady@latitude-48.com" className="employee-email ">brady@latitude-48.com</a>
                 </p>
                 <a onClick={() => this.togglePic2()} className="employee-learn">Learn More</a>
               </div>
@@ -85,7 +85,7 @@ class WhoWeAre extends Component {
                 <h1 className="display-3">Chasen Simpson</h1>
                 <p className="lead ">Principal / Owner</p>
                 <p>
-                  <a type="email" className="employee-learn ">chasen@latitude-48.com</a>
+                  <a type="email" href="mailto: chasen@latitude-48.com" className="employee-email">chasen@latitude-48.com</a>
                 </p>
                 <a onClick={() => this.togglePic1()} className="employee-learn">Learn More</a>
               </div>
