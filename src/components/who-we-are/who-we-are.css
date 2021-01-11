@@ -25,6 +25,10 @@
   cursor: pointer;
 }
 
+.bio-description {
+  padding-top: 30px;
+}
+
 @media only screen and (max-width: 600px) {
   .meet-us-first-section {
     margin-top: 20%;

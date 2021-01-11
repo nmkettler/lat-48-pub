@@ -7,9 +7,9 @@ import AniLink from 'gatsby-plugin-transition-link/AniLink';
 const MainImage = () => {
   return (
     <React.Fragment>
-      <AniLink fade to='/'>
+      <TransitionLink fade to='/'>
         <img className='lat-logo' src={logo} />
-      </AniLink>
+      </TransitionLink>
     </React.Fragment>
   );
 };
