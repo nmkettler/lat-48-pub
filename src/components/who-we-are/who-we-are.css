@@ -12,7 +12,7 @@
 }
 .meet-us-section-wrapper a {
   text-decoration: none;
-  color: #fff;
+  /* color: #fff; */
 }
 .meet-us-section-wrapper p {
   color: #070f13;
@@ -22,7 +22,16 @@
   padding: 0px 50px;
 }
 .employee-learn {
+  cursor: pointer !important;
+}
+
+.employee-email {
   cursor: pointer;
+  color: #0056b3;
+}
+
+.bio-description {
+  padding-top: 30px;
 }
 
 @media only screen and (max-width: 600px) {

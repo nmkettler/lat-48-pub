@@ -44,12 +44,12 @@ class Links extends Component {
           className='nav-item'
           id={links.link}
           key={links.link}>
-          <AniLink
+          <TransitionLink
             className={linkHovering && activeState === links.link ? 'over  upper-nav' : 'upper-nav'}
             fade
             to={links.link}>
             {links.name}
-          </AniLink>
+          </TransitionLink>
         </li>
       </React.Fragment>
     );
