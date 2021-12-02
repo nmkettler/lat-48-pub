@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import chasePic from '../../images/employees/chase.png';
 import bradyPic from '../../images/employees/brady.png';
+import calebPic from '../../images/employees/caleb.png';
 import './who-we-are.css';
 
 class WhoWeAre extends Component {
@@ -9,10 +10,12 @@ class WhoWeAre extends Component {
     this.state = {
       showPicOne: false,
       showPicTwo: false,
+      showPicThree: false,
     };
 
     this.togglePic1 = this.togglePic1.bind(this);
     this.togglePic2 = this.togglePic2.bind(this);
+    this.togglePic3 = this.togglePic3.bind(this);
   }
 
   togglePic1 () {
@@ -24,6 +27,12 @@ class WhoWeAre extends Component {
   togglePic2 () {
     this.setState({
       showPicTwo: !this.state.showPicTwo,
+    });
+  }
+
+  togglePic3 () {
+    this.setState({
+      showPicThree: !this.state.showPicThree,
     });
   }
 
@@ -39,6 +48,14 @@ class WhoWeAre extends Component {
     return (
       <p className='bio-description'>
         Brady is a passionate, hardworking, and enthusiastic engineer with over 8 years of experience working with some of the brightest industry leaders. His charismatic, can-do attitude has allowed him the privilege to work on some of the region’s most prestigious projects and is no stranger to complex design challenges. He always approaches projects with a team mentality and specializes in project management, stormwater, site design, and Civil 3D modeling.
+      </p>
+    );
+  }
+
+  renderBio3 () {
+    return (
+      <p className='bio-description'>
+        Caleb is a highly motivated civil engineer who is an adaptive and productive contributor in a professional setting.  With over 5 years of experience, he offers creativity and critical thinking to solve unique engineering problems.  His strong technical background and interpersonal skills make him an immediate contributor to project delivery and business development.
       </p>
     );
   }
@@ -88,6 +105,29 @@ class WhoWeAre extends Component {
                   <a type="email" href="mailto: chasen@latitude-48.com" className="employee-email">chasen@latitude-48.com</a>
                 </p>
                 <a onClick={() => this.togglePic1()} className="employee-learn">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row meet-us-section-wrapper display-flex meet-us-first-section">
+          <div className={!this.state.showPicThree ? 'col ml-5 order-md-6 ' : 'col-md-6 order-md-6 employee-text'}>
+            {this.state.showPicThree
+              ? <React.Fragment>
+                <img src={calebPic} alt="" className="w-75" />
+                {this.renderBio3()}
+              </React.Fragment>
+              : <img src={calebPic} alt="" className="w-75" />
+            }
+          </div>
+          <div className="col-md-6 order-md-1">
+            <div className="row align-items-center h-100">
+              <div className="col ml-5">
+                <h1 className="display-3">Caleb</h1>
+                <p className="lead ">Civil Engineer</p>
+                <p>
+                  <a type="email" href="mailto: caleb@latitude-48.com" className="employee-email ">caleb@latitude-48.com</a>
+                </p>
+                <a onClick={() => this.togglePic3()} className="employee-learn">Learn More</a>
               </div>
             </div>
           </div>
