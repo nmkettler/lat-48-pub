@@ -122,7 +122,7 @@ class WhoWeAre extends Component {
           <div className="col-md-6 order-md-1">
             <div className="row align-items-center h-100">
               <div className="col ml-5">
-                <h1 className="display-3">Caleb</h1>
+                <h1 className="display-3">Caleb Slater</h1>
                 <p className="lead ">Civil Engineer</p>
                 <p>
                   <a type="email" href="mailto: caleb@latitude-48.com" className="employee-email ">caleb@latitude-48.com</a>
